@@ -19,7 +19,7 @@ class App extends Component {
     let counters = this.state.counters +1
 
     this.setState({
-      counters: this.state.counters
+      counters
     })
   }
 
@@ -27,7 +27,7 @@ class App extends Component {
     let counters = this.state.counters -1
 
     this.setState({
-      counters: this.state.counters
+      counters
     })
   }
 
